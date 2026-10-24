@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+<meta name="description" content="Roraima Spa en Guayaquil. Tratamientos faciales, micropigmentación, cuidado corporal y depilación. Reserva tu cita.">
+<title>Roraima Spa | Belleza y bienestar</title>
+<style>
+:root{--black:#101010;--panel:#191716;--gold:#d8b36a;--cream:#f8f2e9;--pink:#c98798;--muted:#c9c0b5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--cream);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(16,16,16,.94);backdrop-filter:blur(12px);border-bottom:1px solid #3b3020}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 0}.brand{font-family:Georgia,serif;letter-spacing:3px;color:var(--gold);font-size:1.25rem;font-weight:bold}.brand small{display:block;color:var(--cream);font:10px Arial;letter-spacing:4px;text-align:center}.links{display:flex;gap:20px;align-items:center;font-size:.9rem}.links a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#17130d;padding:12px 19px;border-radius:3px;font-weight:bold;border:1px solid var(--gold);cursor:pointer;transition:.2s}.btn:hover{background:#f0d49a;transform:translateY(-1px)}.btn.outline{background:transparent;color:var(--gold)}.hero{min-height:580px;display:grid;align-items:center;background:linear-gradient(90deg,rgba(10,10,10,.97) 0%,rgba(10,10,10,.78) 48%,rgba(10,10,10,.15) 100%),url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1800&q=85') center/cover}.hero-content{max-width:650px;padding:90px 0}.eyebrow{color:var(--pink);text-transform:uppercase;letter-spacing:3px;font-size:.78rem;font-weight:bold}.hero h1{font:clamp(2.8rem,7vw,5.2rem)/1.04 Georgia,serif;margin:18px 0;color:var(--cream)}.hero h1 span{color:var(--gold);font-style:italic}.hero p{font-size:1.1rem;color:#e2d8cb;max-width:530px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.section{padding:78px 0}.section.light{background:var(--cream);color:#201b16}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.section-head h2{font:clamp(2rem,4vw,3rem) Georgia,serif;margin:8px 0 12px}.section-head p{color:#817568;margin:0}.gold{color:var(--gold)}.pink{color:var(--pink)}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.service{background:var(--panel);border:1px solid #3c3327;overflow:hidden}.service img{width:100%;height:175px;object-fit:cover;display:block}.service-body{padding:20px}.service h3{font:1.35rem Georgia,serif;color:var(--gold);margin:0 0 8px}.service p{color:var(--muted);font-size:.92rem;min-height:66px;margin:0 0 14px}.service a{color:var(--pink);font-weight:bold;font-size:.9rem}.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price-card{background:white;border:1px solid #e7ded2;padding:24px;border-radius:4px}.price-card h3{font:1.35rem Georgia,serif;margin:0 0 15px}.price-row{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid #eee5dc;font-size:.94rem}.price-row:last-child{border:0}.price{font-weight:bold;color:#986d26;white-space:nowrap}.note{font-size:.82rem;color:#8b7d70;margin-top:20px}.about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.about img{width:100%;max-height:450px;object-fit:cover;border-radius:3px}.about h2{font:clamp(2rem,4vw,3rem) Georgia,serif;margin:10px 0}.about p{color:var(--muted)}.perks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}.perk{border-left:2px solid var(--pink);padding:7px 12px}.perk strong{display:block;color:var(--gold)}.booking{background:linear-gradient(120deg,#201a13,#111);border-top:1px solid #4b3b24;border-bottom:1px solid #4b3b24}.booking-inner{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.booking h2{font:clamp(2rem,4vw,3rem) Georgia,serif;margin:10px 0}.booking p{color:var(--muted)}form{display:grid;gap:12px}input,select,textarea{width:100%;padding:13px;border:1px solid #594a36;background:#171513;color:var(--cream);font:inherit;border-radius:2px}label{font-size:.88rem;color:#e3d6c5}footer{padding:28px 0;color:#a99e90;font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.wa-float{position:fixed;bottom:20px;right:20px;z-index:8;background:#25d366;color:#082b14;border-radius:50px;padding:14px 18px;font-weight:bold;box-shadow:0 8px 25px #0008}.menu-btn{display:none;background:none;border:1px solid #5d4b30;color:var(--gold);padding:8px 10px}
+@media(max-width:900px){.services{grid-template-columns:repeat(2,1fr)}.prices{grid-template-columns:1fr 1fr}.links{gap:12px}.hero{min-height:520px}.booking-inner{gap:25px}}
+@media(max-width:620px){.nav{flex-wrap:wrap}.menu-btn{display:block}.links{display:none;width:100%;flex-direction:column;align-items:flex-start;padding:10px 0}.links.open{display:flex}.nav>.btn{display:none}.hero{background-position:60% center}.hero-content{padding:70px 0}.section{padding:58px 0}.services,.prices,.about,.booking-inner{grid-template-columns:1fr}.service img{height:210px}.service p{min-height:0}.perks{grid-template-columns:1fr}.about img{max-height:320px}.wa-float{right:12px;bottom:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#inicio">RORAIMA SPA<small>BELLEZA & BIENESTAR</small></a>
+<button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰ Menú</button>
+<nav class="links" id="navLinks"><a href="#servicios">Servicios</a><a href="#precios">Precios</a><a href="#nosotros">Nosotros</a><a href="#reservas">Reservar</a></nav>
+<a class="btn" href="#reservas">Agenda tu cita</a>
+</div></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap"><div class="hero-content">
+<div class="eyebrow">Tu momento, tu belleza</div>
+<h1>Un espacio para <span>brillar</span></h1>
+<p>Descubre tratamientos faciales y corporales pensados para consentirte, realzar tu belleza y disfrutar de un momento solo para ti.</p>
+<div class="actions"><a class="btn" href="#reservas">Reservar por WhatsApp</a><a class="btn outline" href="#servicios">Descubrir tratamientos</a></div>
+</div></div></section>
+<section class="section" id="servicios"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Experiencias Roraima</div><h2>Nuestros <span class="gold">servicios</span></h2><p>Atención personalizada en un ambiente dedicado a tu cuidado y bienestar.</p></div>
+<div class="services">
+<article class="service"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80" alt="Tratamiento facial en spa"><div class="service-body"><h3>Limpieza facial</h3><p>Limpieza y cuidado de la piel, con opciones según las necesidades de tu rostro.</p><a href="#precios">Ver precios →</a></div></article>
+<article class="service"><img src="https://images.unsplash.com/photo-1583001809873-a128495da465?auto=format&fit=crop&w=700&q=80" alt="Cuidado de cejas"><div class="service-body"><h3>Micropigmentación</h3><p>Realza la expresión de tus cejas y labios con un diseño personalizado.</p><a href="#precios">Ver precios →</a></div></article>
+<article class="service"><img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=80" alt="Masaje relajante"><div class="service-body"><h3>Tratamientos corporales</h3><p>Masajes y tratamientos estéticos adaptados a tus objetivos y valoración.</p><a href="#precios">Ver precios →</a></div></article>
+<article class="service"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=700&q=80" alt="Productos de cuidado personal"><div class="service-body"><h3>Depilación</h3><p>Servicios de depilación para una piel suave y una experiencia de cuidado personal.</p><a href="#precios">Ver precios →</a></div></article>
+</div></div></section>
+<section class="section light" id="precios"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Transparencia y confianza</div><h2>Servicios y <span style="color:#a77a31">precios</span></h2><p>Consulta las opciones disponibles y escríbenos para confirmar duración y disponibilidad.</p></div>
+<div class="prices">
+<div class="price-card"><h3>Limpieza facial</h3><div class="price-row"><span>Limpieza facial express</span><span class="price">$15</span></div><div class="price-row"><span>Facial completo</span><span class="price">$20</span></div><div class="price-row"><span>Dermapen facial</span><span class="price">$30</span></div></div>
+<div class="price-card"><h3>Micropigmentación</h3><div class="price-row"><span>Cejas</span><span class="price">$35</span></div><div class="price-row"><span>Labios</span><span class="price">$35</span></div><p class="note">El procedimiento se confirma tras una valoración previa.</p></div>
+<div class="price-card"><h3>Depilación</h3><div class="price-row"><span>Depilación íntima femenina</span><span class="price">$18</span></div><div class="price-row"><span>Axilas</span><span class="price">$6</span></div><div class="price-row"><span>Media pierna</span><span class="price">$10</span></div></div>
+</div>
+<div class="price-card" style="margin-top:16px;background:#211c16;color:#f8f2e9;border-color:#5b472a"><div style="display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap"><div><h3 style="color:#d8b36a;margin:0 0 6px">Paquete corporal promocional</h3><div style="color:#c9c0b5">6 maderoterapias + 6 masajes reductores + 6 drenajes linfáticos + 6 sesiones de lipoláser</div></div><div class="price" style="font-size:1.8rem">$60</div></div></div>
+<p class="note">Precios de referencia configurados para esta primera versión. Confirma que promociones, disponibilidad y tarifas sigan vigentes antes de publicar.</p>
+</div></section>
+<section class="section" id="nosotros"><div class="wrap about">
+<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1000&q=85" alt="Ambiente relajante de spa">
+<div><div class="eyebrow">Bienvenida a Roraima</div><h2>Tu belleza merece un cuidado <span class="gold">especial</span></h2><p>En Roraima Spa queremos que cada visita sea un momento para ti. Te orientamos para elegir el tratamiento adecuado, con atención cercana y una experiencia acogedora.</p><div class="perks"><div class="perk"><strong>Cuidado personal</strong><span>Atención a tus necesidades</span></div><div class="perk"><strong>Trato cercano</strong><span>Orientación personalizada</span></div><div class="perk"><strong>Tu momento</strong><span>Un espacio para consentirte</span></div></div><div class="actions"><a class="btn" href="#reservas">Quiero una cita</a></div></div>
+</div></section>
+<section class="section booking" id="reservas"><div class="wrap booking-inner">
+<div><div class="eyebrow">Estamos para atenderte</div><h2>Reserva tu momento de <span class="gold">bienestar</span></h2><p>Completa tus datos y se abrirá WhatsApp con tu mensaje listo para enviarnos. La cita queda confirmada cuando el spa te responda.</p><p class="pink">Guayaquil, Ecuador</p></div>
+<form id="bookingForm">
+<div><label for="nombre">Tu nombre</label><input id="nombre" name="nombre" placeholder="¿Cómo te llamas?" required></div>
+<div><label for="servicio">Tratamiento de interés</label><select id="servicio" name="servicio" required><option value="">Selecciona un servicio</option><option>Limpieza facial express — $15</option><option>Facial completo — $20</option><option>Dermapen facial — $30</option><option>Micropigmentación de cejas — $35</option><option>Micropigmentación de labios — $35</option><option>Depilación íntima femenina — $18</option><option>Depilación de axilas — $6</option><option>Depilación media pierna — $10</option><option>Paquete corporal — $60</option><option>Otro tratamiento corporal</option></select></div>
+<div><label for="fecha">Fecha preferida</label><input id="fecha" name="fecha" type="date"></div>
+<div><label for="mensaje">Mensaje adicional (opcional)</label><textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos qué necesitas"></textarea></div>
+<button class="btn" type="submit">Continuar por WhatsApp</button><small style="color:#b6a997">Importante: debes completar el número de WhatsApp del spa en el archivo antes de publicar.</small>
+</form></div></section>
+</main>
+<footer><div class="wrap footer-inner"><div><span class="brand">RORAIMA SPA</span><div>Belleza · Bienestar · Confianza</div></div><div>Guayaquil, Ecuador · © <span id="year"></span> Roraima Spa</div></div></footer>
+<a class="wa-float" href="#reservas" aria-label="Reservar por WhatsApp">✆ Reservar cita</a>
+<script>
+/* IMPORTANTE: reemplaza el texto de abajo por el número del spa en formato internacional,
+   solo números, sin +, espacios ni guiones. Ecuador: 593 seguido del número sin el 0 inicial. */
+const WHATSAPP_NUMBER = "REEMPLAZA_CON_NUMERO";
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('navLinks').classList.toggle('open'));
+document.querySelectorAll('#navLinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('open')));
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ if(!/^\d{10,15}$/.test(WHATSAPP_NUMBER)){alert('Antes de usar las reservas, configura el número de WhatsApp de Roraima Spa en el archivo de la página web.');return;}
+ const n=document.getElementById('nombre').value.trim(),s=document.getElementById('servicio').value,f=document.getElementById('fecha').value,m=document.getElementById('mensaje').value.trim();
+ const msg=`Hola, Roraima Spa. Mi nombre es ${n}. Quisiera consultar disponibilidad para: ${s}.${f?' Fecha preferida: '+f+'.':''}${m?' Mensaje: '+m:''}`;
+ window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,'_blank','noopener');
+});
+</script>
+</body></html>
